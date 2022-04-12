@@ -1,0 +1,28 @@
+.boxes{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    width: 600px;
+    padding: 20px;
+    gap: 20px;
+}
+.miniBoxes{
+    margin-top: 50px;
+    width: 120px;
+    height: 150px;
+    line-height: 0.1;
+}
+.miniBoxes p{
+    font-size: 12px;
+    line-height: 1;
+    color: rgba(169,169,169,255);
+}
+.icons{
+    width: 80px;
+}
+h3{
+    color: rgba(31,37,51,255);
+    padding: 0px;
+    margin: 0px;
+    margin-top: 17px;
+}

@@ -1,0 +1,97 @@
+/*
+Colors to use:
+dark blue: #06365f
+light blue: #1c5380
+*/
+*{
+  margin: 0px;
+}
+
+body {
+  background-image: linear-gradient(#1c5380 70%, #06365f);
+  background-repeat: no-repeat;
+  height: 170px;
+  font: 200 16px/1.5 "Helvetica Neue", Helvetica, Arial, sans-serif;
+  margin: 0;
+}
+header{
+  align-items:baseline; 
+}
+
+.header{
+  display: flex;
+  align-items:center;
+}
+
+.logo{
+  width: 250px; 
+}
+
+.login{
+  width: 80px;
+  padding: 5px;
+  margin-left: 150px;
+  display: flex;
+  align-items:center;
+  text-align: center;
+  column-gap: 5px;
+  color: white;
+  font-weight: bold;
+  background-image: linear-gradient(rgba(255, 255, 255, 0.178),#1c5380 , #06365f);
+  box-shadow: 0px 0px 10px #06365f;
+}
+
+.container{
+  display: flex;
+  justify-content:center;
+  margin: 100px;
+  margin-bottom: 0px;
+}
+#boxbranco{
+  display: inline-block;
+  position: relative;
+}
+#boxbranco figcaption{
+  justify-content:center;
+  position: absolute;
+  font-size: 12px;
+  top: 5px;
+  right: 30px;
+  width: 400px;
+  margin: 30px;
+}
+h2{
+  font-size: 22px;
+  color: #1c5380;
+  line-height: 1.3; 
+}
+p{
+  line-height: 1.3;
+  font-size: 15px; 
+}
+span{
+  font-weight: bold;
+}
+#box{
+  margin: 30px; 
+}
+.redeSocial{
+  display: flex;
+  margin-top: 20px;
+  margin-left: 60px;
+  gap: 20px;
+}
+footer{
+  font-size: 12px;
+  text-align: center;
+  font-weight: 550;
+  text-transform: uppercase;
+  color:rgb(175, 175, 175);
+  padding: 40px;
+}
+a{
+  text-decoration: none;
+  color:#1c5380;
+  justify-content: space-evenly;
+  margin: 15px;
+}

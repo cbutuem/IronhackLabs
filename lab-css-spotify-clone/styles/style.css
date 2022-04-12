@@ -1,0 +1,72 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100;400&display=swap');
+/*
+Colors:
+
+Text: 1A1A1A
+Green: #00B172
+White: #FFF
+
+*/
+*{
+    margin: 0px;
+    padding: 0px;
+}
+body{
+    font-family: 'Roboto', sans-serif;
+    font-weight: 100;
+    width:1300px;
+}
+
+header{
+    display: flex;
+    flex-direction: row;
+    align-items:center;
+    margin-inline-end: 200px;
+    height: 80px;
+    justify-content: space-between;
+    width: 1300px;
+    margin: 5px;
+}
+.logo{
+    display: flex;
+    width: 200px;
+    justify-content: flex-start;
+    height: auto;
+    margin: 20px;
+    margin-left: 40px;
+}
+.menu{
+    display: flex;
+    justify-content: flex-end;
+    margin-right: 30px;
+    word-spacing: 20px;
+}
+.txtMusic{
+    display: flex;
+    width: 1300px;
+    height: 600px; 
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    position: absolute;
+    color: white;
+    text-align: center;
+    font-size: 25px;
+
+}
+.imgDance{
+    display: flex;
+    width: 1300px;
+    height: 600px;
+}
+.musicTitle{
+    line-height: 2;
+    font-weight: 400;
+
+}
+#imagemUm{
+    display: flex;
+    position: relative;
+    align-content:center;
+  }

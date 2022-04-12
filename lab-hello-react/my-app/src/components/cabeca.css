@@ -1,0 +1,48 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100;400;700&display=swap');
+*{
+    font-family: 'Roboto', sans-serif;
+}
+header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 20px;
+    padding-left: 30px;
+    padding-right: 20px;
+}
+.ham{
+    height: 8px;
+}
+.logo{
+    height: 30px;
+}
+
+.corpoTxt{
+    display: flex;
+    justify-content: flex-start;
+    flex-direction: column;
+    color: white;
+    width: 300px;
+    padding: 30px;
+    padding-left: 50px;
+    align-content:center;
+    gap: 5px;
+    font-size: 13px;
+}
+.titulo{
+    font-size: 45px;
+    font-weight: bold;
+    line-height: 1;
+    padding-bottom:10px ;
+}
+.botaoMeio{
+    margin-top: 30px;
+    font-size: 15px;
+    font-weight: bold;
+    border: 15px solid white;
+    border-radius: 5%; 
+    width: 73px;
+    background-color: white;
+    color: rgba(31,37,51,255);
+
+}
