@@ -1,0 +1,16 @@
+.box{
+    border: 1px solid black;
+    margin: 2px;
+}
+[lang = 'fr']::before{
+    content: 'Bonjour ';
+}
+[lang = 'es']::before{
+    content: 'Hola ';
+}
+[lang = 'en']::before{
+    content: 'Hello ';
+}
+[lang = 'de']::before{
+    content: 'Hallo ';
+}
