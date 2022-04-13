@@ -70,3 +70,85 @@ header{
     position: relative;
     align-content:center;
   }
+
+.box2{
+    margin: 20px;
+}
+.tituloBox2{
+    display: flex;
+    justify-content:center;
+    margin: 40px;
+
+}
+.lineBox2{
+    display: flex;
+    justify-content:space-evenly;
+    margin: 20px;
+}
+.lineBox2 img{
+    height: 100px;
+    width: auto;
+    margin: 20px;
+    margin-bottom: 0px;
+}
+.minibox{
+    height: auto;
+    width: 200px;
+    text-align: center;
+}
+.minibox h3{
+    color: #00B172;
+    font-weight: bold;
+    margin: 20px;
+}
+.box3{
+    width: 1200px;
+    height: auto;
+    background-color: #00B172;
+    display: flex;
+    justify-content:space-around;
+    margin: 50px;
+}
+.icon{
+    width: 120px;
+    height: auto;
+}
+.app{
+    width: 300px;
+    height: auto;
+}
+.colum{
+    width: 300px;
+    height: auto;
+    margin: 100px;
+    letter-spacing: 1.5px; 
+}
+.colum.one{
+    margin-right: 0px;
+    width: 300px;
+    color: white;
+    line-height: 1.7;
+    margin-bottom: 50px;
+}
+.colum.one h2{
+    font-size: 30px;
+    border-bottom: 3px solid white;
+    letter-spacing: 1.5px;
+    width: 420px;
+    margin-bottom: 40px;
+}
+.colum.one h3{
+    font-size: 22px;
+    letter-spacing: 1.5px;
+    width: 350px;
+    margin: 25px;
+    margin-left: 0px;
+}
+.colum.two{
+    display: flex;
+    align-items:center;
+    align-content:center;
+    justify-content:center;
+    margin-left: 0px;
+    margin-right: 0px;
+}
