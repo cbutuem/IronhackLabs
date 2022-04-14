@@ -1,12 +1,13 @@
-.bar-container{
-    align-items: left;
-    background-color: rgb(38, 0, 255);
-    border: 2px solid rgb(0, 0, 0);
-    border-radius: 5px;
-    width: 400px;
-    height: 15px;
+.bar{
+    border: 1px solid black;
+    width: 300px;
+    height: 100px;
+    margin: 10px;
 }
-.bar-content{
+.BOX{
+    border: 1px solid black;
+    width: 100px;
+    height: 50px;
     width: 100%;
     height: 100%;
 }

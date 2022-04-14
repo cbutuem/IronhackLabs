@@ -21,14 +21,16 @@
     align-content:center;
     font-size: 28px;
     margin: 5px;
-    align-items: baseline;
+    align-items: center;
     order: 2;
     
      
 }
 .dots{
-    font-size: 60px;
+    font-size: 10px;
     margin: 0px;
+    letter-spacing: 4px;
+    margin-right: 3px;
 }
 
 
@@ -37,13 +39,14 @@
     flex-direction: row;
     font-size: 13px;
     margin: 10px;
-    margin-bottom: 0px; 
+    margin-bottom: 0px;
+    margin-top: 30px; 
 }
 .ano{
     display: flex;
     justify-content: flex-start;
     align-content:flex-end;
-    order: 3;    
+    order: 3;
 }
 .bank{
     display: flex;

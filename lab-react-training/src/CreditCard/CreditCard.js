@@ -7,8 +7,8 @@ export function CreditCard(props) {
         <section class= "card" style={{backgroundColor: props.bgColor, color: props.color}}>
             <div class= "type">{props.type}</div>
             <div class="number">
-                <spam class='dots' type='password'>.... .... .... </spam>
-                <spam class='num'> {props.number.substring(12, 16)}</spam>
+                <spam class='dots' type='password'>●●●● ●●●● ●●●● </spam>
+                <spam class='num'>{props.number.substring(12, 16)}</spam>
             </div>
             <div class="line">
                 <spam class="ano">Expires {props.expirationMonth}/{props.expirationYear}</spam>
